@@ -199,12 +199,10 @@ public class Pokemon {
             /*
              * Does opponent have hit points left?
              */
-            if ((opponent.hitPoints - totalDamage) > 0) {
                 System.out.println(opponent.name + " has "
                         + (opponent.hitPoints - totalDamage) + " hit points");
-            } else {
+            } else if (opponent.getHitPoints() <= 0) {
                 System.out.println(opponent.name + " has been defeated!");
-            }
             /*
              * Set the opponents hitPoints appropriately.
              */
