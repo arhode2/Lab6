@@ -4,7 +4,7 @@
 public class WaterPokemon extends Pokemon {
 
     /**
-     * The value we will be setting our specialty probability to.
+     * The value we will be setting our specialty probability to. Apples.
      */
     final double specProb = 0.2;
     /**
